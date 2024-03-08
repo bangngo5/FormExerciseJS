@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="hi.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="MyForm" onsubmit="getform(); return false;">
+        <section class="form">
+            <h3>Sign Up</h3>
+            <div>
+                
+                <label for="Name" >Name: </label> <br>
+                <input type="text" id="name" placeholder="Enter your fullname"> <br>
+                <div id="name-error"></div> 
+                <label for="Email" >Email: </label> <br>
+                <input type="email" id="email" placeholder="Enter your email address"> <br>
+                <div id="email-error"></div> 
+                <label for="Password" >Password: </label> <br>
+                <input type="password" id="password"  placeholder="Enter your password"> <br>
+                <div id="pass-error"></div> 
+                <button type="submit" id="button">Subscribe</button>
+            </div>
+        </section>
+    </form>
+</body>
+</html>

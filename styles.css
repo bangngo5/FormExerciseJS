@@ -1,0 +1,47 @@
+body{
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+h3{
+    margin-left: 30%;
+    width: 135%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    border: 5px solid aqua;
+    border-radius: 10px;
+    padding: 16px;
+    display: flex;
+    width: 23%;
+}
+
+#name,
+#email,
+#password {
+    border-radius: 4px;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    width: 180%;
+}
+
+p {
+    margin-top: 5px;
+}
+
+#button {
+    background-color: hsl(235, 87%, 56%);
+    border-color: aquamarine;
+    border-width: 5px;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    width: 190%;
+    border-radius: 10px;
+}
